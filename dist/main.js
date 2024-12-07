@@ -1,0 +1,1 @@
+(()=>{"use strict";(()=>{const t=document.querySelector(".header-logo");(({timing:t,draw:e,duration:n})=>{const o=performance.now();requestAnimationFrame((function r(i){let a=(i-o)/n;a>1&&(a=1);const c=t(a);e(c),a<1&&requestAnimationFrame(r)}))})({duration:500,timing:t=>t,draw(e){t.style.opacity=e}})})()})();
