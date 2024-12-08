@@ -1,3 +1,6 @@
-import animation from "./modules/animate";
+import animation from "./modules/animation";
+import mainSlider from "./modules/mainSlider";
 
 animation()
+mainSlider()
+

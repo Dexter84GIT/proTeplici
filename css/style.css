@@ -115,7 +115,6 @@ img {
 }
 .cb-button:hover {
     background: #F39200;
-    color: #292D32;
     transition: 0.3s ease-in;
     transform: scale(1.05);
 }
@@ -141,7 +140,7 @@ img {
 .header-tel span {
     font-size: 36px;
     color: #A3A3A3;
-    padding: 0 10px;
+    padding: 0 30px 0px 0px;
 }
 .header-cart {
     display: flex;
@@ -204,7 +203,7 @@ img {
 .main-menu li.menu-catalog-link {
     position: relative;
     padding: 3px 10px 3px 35px;
-    background: #dcdcdc;
+    background: #076633;
     border-radius: 12px;
 }
 .main-menu li.menu-catalog-link::before {
@@ -226,17 +225,58 @@ img {
 }
 .main-menu li.menu-catalog-link a {
     color: #F39200;
-    font-weight: bold;
 }
 .main-menu li.menu-catalog-link:hover a {
     color: #fff;
     transition: 0.3s ease-in;
-    font-weight: bold;
 }
 .main-menu li.menu-catalog-link:not(hover) a {
     transition: 0.3s ease-out;
 }
 .main-menu li.menu-sale-link a {
-    color: #C21300;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 12px;
+    background: #C21300;
     font-weight: 600;
+}
+.main-menu li.menu-sale-link:hover a {
+    color: #C21300;
+    background: #F39200;
+    transition: 0.3s ease-in;
+}
+.main-menu li.menu-sale-link:not(hover) a {
+    transition: 0.3s ease-in; 
+}
+.hero {
+    padding-top: 30px;
+}
+.hero-slider {
+    position: relative;
+}
+.hero-slide {
+    display: none;
+    z-index: 100;
+}
+.hero-slide-active {
+    display: block;
+}
+.hero-slider .number {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    z-index: 200;
+}
+.category {
+    padding-top: 30px;
+}
+.category-content {
+    text-align: center;
+}
+.category-content p {
+    font-size: 24px;
+    padding-top: 5px;
 }
