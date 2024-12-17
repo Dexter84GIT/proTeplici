@@ -1,7 +1,7 @@
 const mainSlider = () => {
     const slides = document.querySelectorAll('.hero-slide')
     const slideNumber = document.querySelector('.number')
-    const timeInterval = 3000
+    const timeInterval = 5000
     
     let interval = 0
     let currentSlide = 0
@@ -21,7 +21,7 @@ const mainSlider = () => {
         }
         nextSlide(slides, currentSlide, 'hero-slide-active')
     }
-    const startSlide = (timer = 3000) => {
+    const startSlide = (timer = 5000) => {
         interval = setInterval(autoSlide, timer)
     }
     startSlide(timeInterval)

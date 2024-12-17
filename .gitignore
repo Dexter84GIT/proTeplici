@@ -1,2 +1,5 @@
 /node_modules
+/goods
+/woocommerce
+/storefront
 package-lock.json
