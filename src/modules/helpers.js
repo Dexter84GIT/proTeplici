@@ -22,6 +22,15 @@ const animate = ({timing, draw, duration}) => {
   
     });
   }
+
+  const emailValidation = (email) => {
+      // Regular expression pattern for validating an email address
+      const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      // Test the email against the regex pattern
+      return regex.test(email);
+  }
+
+
     
 
-export {slicer, animate}
+export {slicer, animate, emailValidation }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/css/style.css">
     <title>ProTeplici.ru</title>
 </head>
@@ -57,16 +58,15 @@
             </div>
         </header>
         <section class="hero">
-            <div class="container">
-                <div class="slider hero-slider">
-                    <p class="number">1</p>
-                    <div class="hero-slide hero-slide-active">
+            <div class="container swiper">
+                <div class="slider swiper-wrapper hero-slider">
+                    <div class="swiper-slide hero-slide">
                         <img src="/img/test-slide.jpg" alt="slide">
                     </div>
-                    <div class="hero-slide">
+                    <div class="swiper-slide hero-slide">
                         <img src="/img/test-slide.jpg" alt="slide">
                     </div>
-                    <div class="hero-slide">
+                    <div class="swiper-slide hero-slide">
                         <img src="/img/test-slide.jpg" alt="slide">
                     </div>
                 </div>
@@ -170,6 +170,7 @@
             </div>
         </footer>
     </main>
-    <script src="/dist/main.js" defer></script>
+    <script src="/dist/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>

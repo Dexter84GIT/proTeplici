@@ -1,7 +1,7 @@
 import animation from "./modules/animation";
-import mainSlider from "./modules/mainSlider";
+import bannerSlider from "./modules/bannerSlider.js";
 import changeButtonsColor from "./modules/changeButtonsColor";
 
 animation()
-mainSlider()
+bannerSlider()
 changeButtonsColor()

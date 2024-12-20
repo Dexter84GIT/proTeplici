@@ -5,7 +5,7 @@
             <a href="/product-category/teplicy_i_parniki">
                 <div class="category-content">
                     <div class="category-image">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat.jpg" alt="category">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat/001.jpeg" alt="category">
                     </div>
                     <p>Теплицы / Парники</p>
                 </div>
@@ -15,7 +15,7 @@
             <a href="/">
                 <div class="category-content">
                     <div class="category-image">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat.jpg" alt="category">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat/002.jpeg" alt="category">
                     </div>
                     <p>Поликарбонат</p>
                 </div>
@@ -25,7 +25,7 @@
             <a href="/">
                 <div class="category-content">
                     <div class="category-image">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat.jpg" alt="category">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat/003.jpeg" alt="category">
                     </div>
                     <p>Для теплиц</p>
                 </div>
@@ -35,7 +35,7 @@
             <a href="/">
                 <div class="category-content">
                     <div class="category-image">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat.jpg" alt="category">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat/004.jpeg" alt="category">
                     </div>
                     <p>Агрочехол</p>
                 </div>
@@ -45,7 +45,7 @@
             <a href="/">
                 <div class="category-content">
                     <div class="category-image">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat.jpg" alt="category">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/cat/005.jpeg" alt="category">
                     </div>
                     <p>Тандыры / Казаны</p>
                 </div>
