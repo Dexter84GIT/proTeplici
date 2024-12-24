@@ -1,5 +1,3 @@
-import { animate } from "./helpers"
-
 const animation = () => {
     const mainLogo = document.querySelector('.header-logo')
     const fadeIn = () => {
@@ -16,4 +14,4 @@ const animation = () => {
     fadeIn()
 }
 
-export default animation
+animation()

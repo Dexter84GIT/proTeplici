@@ -11,4 +11,4 @@ const changeButtonsColor = () => {
         });
     }  
 }
-export default changeButtonsColor
+changeButtonsColor()

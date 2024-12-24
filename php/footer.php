@@ -5,6 +5,9 @@
             </footer>
         </main>
         <?php wp_footer(); ?>
-    <script src="<?php bloginfo('stylesheet_directory'); ?>/dist/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory'); ?>/src/modules/animation.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory'); ?>/src/modules/bannerSlider.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory'); ?>/src/modules/changeButtonsColor.js"></script>
     </body>
 </html>

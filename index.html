@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/style.css">
     <title>ProTeplici.ru</title>
 </head>
+
 <body>
     <main>
+        <div class="mobile-menu">
+            <div class="accordeon">
+                    <div class="title">
+                        <a href="/">Главная</a>
+                    </div>
+                    <div class="title with-submenu">
+                        <p>Каталог</p>
+                        <div class="submenu">
+                            <p><a href="/product-category/teplicy_i_parniki/">Теплицы / Парники</a></p>
+                            <p><a href="/product-category/polikarbonat/"></a>Поликарбонат</p>
+                            <p><a href="/product-category/dlya-teplicz/">Все для теплиц</a></p>
+                            <p><a href="/product-category/agrochehol/">Агрочехол</a></p>
+                            <p><a href="/product-category/tandyry-kazany/">Тандыры / Казаны</a></p>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <a href="/about">О компании</a>
+                    </div>
+                    <div class="title">
+                        <a href="/delivery">Доставка</a>
+                    </div>
+                    <div class="title">
+                        <a href="/payment">Оплата</a>
+                    </div>
+                    <div class="title">
+                        <a href="/sale">Акции</a>
+                    </div>
+                    <div class="title">
+                        <a href="/reviews">Отзывы</a>
+                    </div>
+                    <div class="title">
+                        <a href="/contacts">Контакты</a>
+                    </div>
+            </div>
+        </div>
         <header class="header">
             <div class="container header-container">
                 <div class="header-top df aic jcsb">
@@ -31,6 +68,9 @@
                     </div>
                 </div>
                 <div class="header-bottom df jcsb">
+                    <div class="mobile-menu__button">
+                        <span></span>
+                    </div>
                     <ul class="main-menu df aic">
                         <li><a href="/">Главная</a></li>
                         <li class="menu-catalog-link"><a href="">Каталог</a></li>
@@ -70,6 +110,8 @@
                         <img src="/img/test-slide.jpg" alt="slide">
                     </div>
                 </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </section>
         <section class="category">
@@ -131,46 +173,56 @@
         <section class="how">
             <div class="container how-container">
                 <h2 class="page-title">Как сделать заказ в нашем интернет-магазине</h2>
-                <p class="page-subtitle">Понравились наши теплицы, хотите оформить заказ? Сделать это довольно просто, необходимо выполнить всего 4 несложных действия:</p>
+                <p class="page-subtitle">Понравились наши теплицы, хотите оформить заказ? Сделать это довольно просто,
+                    необходимо выполнить всего 4 несложных действия:</p>
                 <div class="how-content df jcsb aifs">
                     <div class="how-block">
                         <div class="how-icon">
                             <img src="/img/ico/24.svg" alt="">
                         </div>
                         <p class="how-block__title">Выберите товар</p>
-                        <p class="how-block__text">Выберите теплицу или другой товар который Вам понравился в нашем Каталоге</p>
+                        <p class="how-block__text">Выберите теплицу или другой товар который Вам понравился в нашем
+                            Каталоге</p>
                     </div>
                     <div class="how-block">
                         <div class="how-icon">
                             <img src="/img/ico/24.svg" alt="">
                         </div>
                         <p class="how-block__title">Выберите товар</p>
-                        <p class="how-block__text">Выберите теплицу или другой товар который Вам понравился в нашем Каталоге</p>
+                        <p class="how-block__text">Выберите теплицу или другой товар который Вам понравился в нашем
+                            Каталоге</p>
                     </div>
                     <div class="how-block">
                         <div class="how-icon">
                             <img src="/img/ico/24.svg" alt="">
                         </div>
                         <p class="how-block__title">Выберите товар</p>
-                        <p class="how-block__text">Выберите теплицу или другой товар который Вам понравился в нашем Каталоге</p>
+                        <p class="how-block__text">Выберите теплицу или другой товар который Вам понравился в нашем
+                            Каталоге</p>
                     </div>
                     <div class="how-block">
                         <div class="how-icon">
                             <img src="/img/ico/24.svg" alt="">
                         </div>
                         <p class="how-block__title">Выберите товар</p>
-                        <p class="how-block__text">Выберите теплицу или другой товар который Вам понравился в нашем Каталоге</p>
+                        <p class="how-block__text">Выберите теплицу или другой товар который Вам понравился в нашем
+                            Каталоге</p>
                     </div>
                 </div>
             </div>
         </section>
         <footer class="footer">
             <div class="container footer-container">
-                
+
             </div>
         </footer>
     </main>
-    <script src="/dist/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/src/modules/animation.js"></script>
+    <script src="/src/modules/bannerSlider.js"></script>
+    <script src="/src/modules/changeButtonsColor.js"></script>
+    <script src="/src/modules/mobileMenu.js"></script>
+    <script src="/src/modules/accordeon.js"></script>
 </body>
+
 </html>

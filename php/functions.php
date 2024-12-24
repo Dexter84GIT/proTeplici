@@ -14,5 +14,6 @@ remove_filter( 'comment_text', 'wpautop' );// для комментарий
 
 /** Отключить зум */
 remove_theme_support( 'wc-product-gallery-zoom' );
-
+/** ACF */
+add_filter('acf/settings/remove_wp_meta_box', '__return_false')
 ?>

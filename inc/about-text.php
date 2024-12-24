@@ -2,8 +2,8 @@
     <div class="container">
         <h2><?php the_title(); ?></h2>
         <div class="about-content df aic">
-            <div class="abuut-photo">
-                
+            <div class="about-photo">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/img/round_boss.png" alt="boss">
             </div>
             <div class="about-text">
                 <p>Я Денис Слизов руководитель «ПроТеплицы.ру» Мне как руководителю очень важно Ваше мнение! Я стремлюсь чтобы качество нашей продукции и услуг повышалось. Вопросы и пожелания вы можете написать мне лично в ВК </p>
